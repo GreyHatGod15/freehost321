@@ -1,6 +1,7 @@
 <html>
   <head>
     <title>PHP Test</title>
+<link rel="stylesheet" href="main.css">
     <style>
 body {
   justify-content: center;
