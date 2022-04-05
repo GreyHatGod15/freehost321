@@ -23,7 +23,6 @@ $name = $_POST["name"];
 $code = $_POST["code"];
 fopen("$name.html", "w");
 file_put_contents("$name.html", $code);
-echo "https://freehost321.herokuapp.com/$_POST["name"].html";
     ?> 
     <form action="index.php" method="POST">
       <input type = "text" name = "name" placeholder="enter a name for your site...   ">
