@@ -18,13 +18,8 @@ alert()
 
     
     <?php 
-
-$name = $_POST["name"];
-$code = $_POST["code"];
-fopen("$name.html", "w");
-file_put_contents("$name.html", $code);
     ?> 
-    <form action="index.php" method="POST">
+    <form action="addPage.php" method="POST">
       <input type = "text" name = "name" placeholder="enter a name for your site...   ">
      <br>
       <textarea name = "code" placeholder="enter the *HTML* code for your site..."></textarea>
