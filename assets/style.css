@@ -1,0 +1,30 @@
+* {
+  padding: 10px;
+  margin: 0;
+}
+
+.container {
+  margin: 0;
+  background: whitesmoke;
+  border-radius: 50px;
+  border: 10px solid blue;
+  
+
+
+
+
+
+
+}
+
+input {
+  width: 100%;
+  font-size: 30px;
+}
+
+textarea {
+  width: 100%;
+  height: 600px;
+  font-size: 30px;
+}
+
